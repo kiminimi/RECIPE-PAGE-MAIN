@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Young+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Outfit:wght@100..900&family=Young+Serif&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background-color: hsl(30, 54%, 90%);
+}
+
+main {
+  background: #fff;
+  max-width: 50rem;
+  border-radius: 20px;
+  margin: 5rem auto;
+}
+
+img {
+  width: 100%;
+  border-radius: 25px;
+  padding: 1rem;
+}
+
+h1 {
+  font-family: "Young Serif";
+  weight: 100;
+  margin-left: 1rem;
+}
+
+.desc {
+  margin: 1.2rem;
+  font-family: "Outfit", sans-serif;
+  color: hsl(24, 5%, 18%);
+}
+
+.prep {
+  background: hsl(330, 100%, 98%);
+  margin: 1rem;
+  border-radius: 10px;
+  font-family: "Outfit", sans-serif;
+}
+.prep h2 {
+  color: hsl(332, 51%, 32%);
+  padding: 1rem;
+}
+
+.prep li {
+  list-style: disc;
+  margin: 1rem;
+  padding: 0.3rem;
+}
+
+.ingredients {
+  margin: 1rem;
+  border-radius: 10px;
+  font-family: "Outfit", sans-serif;
+}
+
+.ingredients h2 {
+  color: hsl(14, 45%, 36%);
+  padding: 1rem;
+  font-family: "Young Serif";
+}
+
+.ingredients li {
+  list-style: disc;
+  margin: 1rem;
+  padding: 0.3rem;
+}
+
+.instructions {
+  margin: 1rem;
+  border-radius: 10px;
+  font-family: "Outfit", sans-serif;
+}
+
+.instructions h2 {
+  color: hsl(14, 45%, 36%);
+  padding: 1rem;
+  font-family: "Young Serif";
+}
+
+.instructions li {
+  list-style: disc;
+  margin: 0.5rem;
+}
+
+.nutrition {
+  margin: 1rem;
+  border-radius: 10px;
+  font-family: "Outfit", sans-serif;
+}
+
+.nutrition h2 {
+  color: hsl(14, 45%, 36%);
+  padding: 1rem;
+  font-family: "Young Serif";
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td {
+  border-bottom: 1px solid hsl(30, 54%, 90%);
+  text-align: start;
+  padding: 1rem 0;
+  margin-left: 1rem;
+}
+
+.nutrition-label {
+  padding-left: 5rem;
+}
+
+.cal {
+  color: hsl(14, 45%, 36%);
+  padding-left: 14rem;
+}
+.carbs {
+  color: hsl(14, 45%, 36%);
+  padding-left: 7.5rem;
+}
+.protein {
+  color: hsl(14, 45%, 36%);
+  padding-left: 12rem;
+}
+.fat {
+  color: hsl(14, 45%, 36%);
+  padding-left: 18rem;
+}
