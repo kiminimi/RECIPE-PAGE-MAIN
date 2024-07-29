@@ -20,41 +20,45 @@ main {
 
 img {
   width: 100%;
-  border-radius: 25px;
-  padding: 1rem;
+  border-radius: 50px;
+  padding: 2rem;
 }
 
 h1 {
   font-family: "Young Serif";
   font-weight: 100;
-  margin-left: 1rem;
+  margin-left: 2rem;
 }
 
 .desc {
-  margin: 1.2rem;
+  margin: 1rem 2rem;
   font-family: "Outfit", sans-serif;
   color: hsl(24, 5%, 18%);
 }
 
 .prep {
   background: hsl(330, 100%, 98%);
-  margin: 1rem;
+  margin: 2rem;
   border-radius: 10px;
   font-family: "Outfit", sans-serif;
 }
 .prep h2 {
   color: hsl(332, 51%, 32%);
-  padding: 1rem;
+  padding: 1rem 2rem;
+}
+
+.prep ::marker {
+  color: hsl(332, 51%, 32%);
 }
 
 .prep li {
   list-style: disc;
-  margin: 1rem;
-  padding: 0.3rem;
+  margin: 0 4rem;
+  padding-bottom: 1.5rem;
 }
 
 .ingredients {
-  margin: 1rem;
+  margin: 0 1.5rem;
   border-radius: 10px;
   font-family: "Outfit", sans-serif;
 }
@@ -65,10 +69,14 @@ h1 {
   font-family: "Young Serif";
 }
 
+.ingredients ::marker {
+  color: hsl(14, 45%, 36%);
+}
+
 .ingredients li {
   list-style: disc;
-  margin: 1rem;
-  padding: 0.3rem;
+  margin: 0 2.5rem;
+  padding-bottom: 1.5rem;
 }
 
 .instructions {
@@ -83,9 +91,15 @@ h1 {
   font-family: "Young Serif";
 }
 
+.instructions ::marker {
+  color: hsl(14, 45%, 36%);
+  font-weight: bold;
+}
+
 .instructions li {
-  list-style: disc;
-  margin: 0.5rem;
+  margin: 0 2.5rem;
+  padding-bottom: 1.5rem;
+  line-height: 30px;
 }
 
 .nutrition {
